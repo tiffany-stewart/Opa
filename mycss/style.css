@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+section.bgi {
+ padding: 0;
+ background-image: url(images/wormplane.jpeg);
+ background-size: auto 100%;
+ background-repeat: no-repeat;
+ background-position: left top;
+ position: static;
+}
+
+ .welcome {
+  width: 85%;
+  height: 500px;
+  background-color: #000;
+  opacity: .7;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+
+.innerWelcome h1 {
+  position: relative;
+  color: tomato;
+  opacity: 1;
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 300;
+  font-size: 80px;
+}
+
+.innerWelcome h3 {
+  font-size: 80px;
+  color: tomato;
+  opacity: 1;
+  text-align: center;
+  font-weight: 300;
+  margin-top: -20px;
+}
+
+.innerWelcome h3 > a {
+  color: tomato;
+}
+
+.navbar ul {
+  padding-top: 20px;
+}
+
+.navbar li {
+  display: inline;
+
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 13%;
+  font-weight: 100;
+}
+
+.navbar a:hover {
+  color: tomato;
+  transition: .5s;
+}
+
+/* WHAT WE'RE DOING */
+
+#aboutThis {
+  width: 40%;
+  float: left;
+  height: 400px;
+  background-color: #000;
+  opacity: .8;
+  margin-left: 7.5%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+#aboutThis h1 {
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+#aboutThis p {
+  color: #fff;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 13px;
+}
+
+/* LONG DIV SECTION */
+
+#longDiv {
+  width: 40%;
+  height: 550px;
+  float: right;
+  background-color: #000;
+  opacity: .8;
+  margin-right: 7.5%;
+  margin-top: 20px;
+}
+
+#longDiv p {
+  padding: 8px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 100;
+}
+
+/* TOP BAR SECTION */
+
+#topBar {
+  width: 40%;
+  float: left;
+  height: 400px;
+  background-color: #000;
+  opacity: .8;
+  margin-left: 7.5%;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* RIGHT BAR SECTION */
+
+#rightBar {
+  width: 45%;
+  float: right;
+  height: 250px;
+  background-color: #000;
+  opacity: .8;
+  margin-right: 7.5%;
+  margin-top: 20px;
+}
